@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500">
+ <TableRow
+     android:layout_height="match_parent"
+     android:background="@color/purple_200">
+     <TextView
+         android:text="ViewApp"
+         android:textColor="@color/white"
+         android:textScaleX="5"
+         android:layout_margin="10dp">
+     </TextView>
+ </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:hint="Enter ur login here">
+
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:hint="Enter ur email address here">
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="3"></View>
+        <Button
+        android:background="@color/purple_200"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Отправить!"
+            android:textColor="@color/white"
+            android:shadowColor="@color/white"
+            android:elevation="100dp"
+        ></Button>
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="3"></View>
+    </TableRow>
+</TableLayout>
